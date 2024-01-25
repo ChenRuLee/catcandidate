@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>catcandidate</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/designguideline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+    <!-- test -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="nav-bar-container">
+            <div class="navbar">
+                <div class="nav-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="16" viewBox="0 0 23 16" fill="none">
+                        <path d="M1 8H22" stroke="#EA7F1B" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M1 1H22" stroke="#EA7F1B" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M1 15H22" stroke="#EA7F1B" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <div class="nav-word body-en_b">
+                    About Me
+                </div>
+
+                <div class="nav-word body-en_b">
+                    Last Activity
+                </div>
+
+                <div class="nav-word body-en_b">
+                    Policy
+                </div>
+
+                <div class="nav-logo">
+
+                </div>
+
+                <div class="nav-word body-en_b">
+                    Donate
+                </div>
+
+                <div class="nav-word body-en_b">
+                    Feedback
+                </div>
+
+                <div class="nav-icon-group">
+                    <div class="nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M20.1923 0H4.80769C3.53261 0 2.30976 0.506523 1.40814 1.40814C0.506523 2.30976 0 3.53261 0 4.80769V20.1923C0 21.4674 0.506523 22.6902 1.40814 23.5919C2.30976 24.4935 3.53261 25 4.80769 25H12.5C12.755 25 12.9996 24.8987 13.1799 24.7184C13.3602 24.538 13.4615 24.2935 13.4615 24.0385V16.3462C13.4615 16.0911 13.3602 15.8466 13.1799 15.6662C12.9996 15.4859 12.755 15.3846 12.5 15.3846H11.5385V13.4615H12.5C12.755 13.4615 12.9996 13.3602 13.1799 13.1799C13.3602 12.9996 13.4615 12.755 13.4615 12.5V9.13461C13.4615 8.49708 13.7148 7.88565 14.1656 7.43484C14.6164 6.98403 15.2278 6.73077 15.8654 6.73077H18.2692V8.65385H17.3077C16.7977 8.65385 16.3085 8.85646 15.9479 9.2171C15.5872 9.57775 15.3846 10.0669 15.3846 10.5769V12.5C15.3846 12.755 15.4859 12.9996 15.6662 13.1799C15.8466 13.3602 16.0911 13.4615 16.3462 13.4615H18L17.5192 15.3846H16.3462C16.0911 15.3846 15.8466 15.4859 15.6662 15.6662C15.4859 15.8466 15.3846 16.0911 15.3846 16.3462V20.1923C15.3846 20.4473 15.4859 20.6919 15.6662 20.8722C15.8466 21.0525 16.0911 21.1538 16.3462 21.1538C16.6012 21.1538 16.8457 21.0525 17.0261 20.8722C17.2064 20.6919 17.3077 20.4473 17.3077 20.1923V17.3077H18.2692C18.4889 17.3141 18.7041 17.2451 18.879 17.1121C19.054 16.9791 19.1781 16.7903 19.2308 16.5769L20.1923 12.7308C20.2283 12.5889 20.2314 12.4406 20.2015 12.2973C20.1715 12.154 20.1091 12.0194 20.0192 11.9038C19.9257 11.7853 19.8056 11.6905 19.6686 11.627C19.5317 11.5635 19.3816 11.5332 19.2308 11.5385H17.3077V10.5769H19.2308C19.4858 10.5769 19.7304 10.4756 19.9107 10.2953C20.091 10.115 20.1923 9.8704 20.1923 9.61538V5.76923C20.1923 5.51421 20.091 5.26964 19.9107 5.08932C19.7304 4.909 19.4858 4.80769 19.2308 4.80769H15.8654C14.7186 4.81023 13.6195 5.26692 12.8086 6.07782C11.9977 6.88873 11.541 7.98782 11.5385 9.13461V11.5385H10.5769C10.3219 11.5385 10.0773 11.6398 9.89701 11.8201C9.71669 12.0004 9.61538 12.245 9.61538 12.5V16.3462C9.61538 16.6012 9.71669 16.8457 9.89701 17.0261C10.0773 17.2064 10.3219 17.3077 10.5769 17.3077H11.5385V23.0769H4.80769C4.04264 23.0769 3.30893 22.773 2.76796 22.232C2.22699 21.6911 1.92308 20.9574 1.92308 20.1923V4.80769C1.92308 4.04264 2.22699 3.30893 2.76796 2.76796C3.30893 2.22699 4.04264 1.92308 4.80769 1.92308H20.1923C20.9574 1.92308 21.6911 2.22699 22.232 2.76796C22.773 3.30893 23.0769 4.04264 23.0769 4.80769V20.1923C23.0769 20.9574 22.773 21.6911 22.232 22.232C21.6911 22.773 20.9574 23.0769 20.1923 23.0769H16.3462C16.0911 23.0769 15.8466 23.1782 15.6662 23.3585C15.4859 23.5389 15.3846 23.7834 15.3846 24.0385C15.3846 24.2935 15.4859 24.538 15.6662 24.7184C15.8466 24.8987 16.0911 25 16.3462 25H20.1923C21.4674 25 22.6902 24.4935 23.5919 23.5919C24.4935 22.6902 25 21.4674 25 20.1923V4.80769C25 3.53261 24.4935 2.30976 23.5919 1.40814C22.6902 0.506523 21.4674 0 20.1923 0Z"
+                                fill="#EA7F1B" />
+                        </svg>
+                    </div>
+
+                    <div class="nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M16.7201 9.64296C16.597 9.69048 16.4845 9.7619 16.3891 9.85309C16.2938 9.94428 16.2174 10.0534 16.1644 10.1743C16.1114 10.2951 16.0829 10.4253 16.0804 10.5572C16.0779 10.6891 16.1016 10.8202 16.1501 10.943C16.4795 11.7978 16.5056 12.7399 16.2238 13.6116C15.9421 14.4834 15.3696 15.232 14.6022 15.7324C13.8347 16.2327 12.9187 16.4544 12.0074 16.3604C11.0961 16.2665 10.2446 15.8625 9.5954 15.2161C8.94618 14.5697 8.53853 13.72 8.4406 12.8091C8.34268 11.8982 8.56042 10.9812 9.05742 10.2116C9.55441 9.44197 10.3005 8.86627 11.1711 8.58074C12.0416 8.29522 12.9838 8.31718 13.8401 8.64296C14.088 8.73711 14.3633 8.7289 14.6052 8.62013C14.8471 8.51136 15.0359 8.31094 15.1301 8.06296C15.2242 7.81498 15.216 7.53976 15.1072 7.29784C14.9984 7.05592 14.798 6.86711 14.5501 6.77296C13.2672 6.2877 11.8568 6.25661 10.5538 6.68488C9.25077 7.11315 8.13383 7.97493 7.38901 9.12665C6.64419 10.2784 6.31645 11.6505 6.46038 13.0145C6.60432 14.3785 7.21124 15.6521 8.18005 16.623C9.30505 17.7466 10.83 18.3777 12.4201 18.3777C14.0101 18.3777 15.535 17.7466 16.6601 16.623C17.4838 15.8014 18.0509 14.7581 18.2924 13.62C18.5338 12.4819 18.4392 11.2982 18.0201 10.213C17.9725 10.0899 17.9011 9.9774 17.8099 9.88203C17.7187 9.78666 17.6096 9.71029 17.4887 9.6573C17.3679 9.60432 17.2377 9.57577 17.1058 9.57331C16.9739 9.57085 16.8428 9.59452 16.7201 9.64296Z"
+                                fill="#EA7F1B" />
+                            <path
+                                d="M19.27 6.32297C19.8223 6.32297 20.27 5.87525 20.27 5.32297C20.27 4.77068 19.8223 4.32297 19.27 4.32297C18.7177 4.32297 18.27 4.77068 18.27 5.32297C18.27 5.87525 18.7177 6.32297 19.27 6.32297Z"
+                                fill="#EA7F1B" />
+                            <path
+                                d="M24.27 5.32296C24.2703 4.01402 23.7572 2.75718 22.8411 1.82232C21.9249 0.887457 20.6787 0.349138 19.37 0.322959C14.6799 -0.107653 9.96015 -0.107653 5.27002 0.322959C3.95768 0.322791 2.69789 0.83858 1.76247 1.75903C0.827054 2.67948 0.291014 3.93079 0.270017 5.24296C-0.0900056 9.92939 -0.0900056 14.6365 0.270017 19.323C0.269755 20.6319 0.78279 21.8887 1.69895 22.8236C2.61511 23.7585 3.86134 24.2968 5.17002 24.323C7.53002 24.543 9.90002 24.663 12.27 24.663C14.64 24.663 16.98 24.553 19.32 24.323C20.6237 24.3101 21.8708 23.7885 22.7954 22.8695C23.7201 21.9504 24.2492 20.7065 24.27 19.403C24.65 14.7173 24.65 10.0086 24.27 5.32296ZM22.27 19.323C22.27 20.1186 21.9539 20.8817 21.3913 21.4443C20.8287 22.0069 20.0657 22.323 19.27 22.323H19.17C14.5476 22.7729 9.89242 22.7729 5.27002 22.323C4.86923 22.3231 4.47247 22.2429 4.10318 22.0872C3.73389 21.9315 3.39955 21.7033 3.1199 21.4162C2.84026 21.1291 2.62097 20.7889 2.475 20.4156C2.32903 20.0423 2.25933 19.6436 2.27002 19.243C1.92001 14.6096 1.92001 9.95636 2.27002 5.32296C2.26984 4.9213 2.35031 4.5237 2.50667 4.15373C2.66303 3.78376 2.8921 3.44896 3.18027 3.16917C3.46845 2.88939 3.80988 2.67032 4.18431 2.52496C4.55874 2.3796 4.95854 2.31091 5.36002 2.32296C7.65335 2.11629 9.95335 2.00963 12.26 2.00296C14.5667 1.99629 16.9034 2.10296 19.27 2.32296C19.6708 2.32282 20.0676 2.40298 20.4369 2.55873C20.8061 2.71447 21.1405 2.94263 21.4201 3.22973C21.6998 3.51684 21.9191 3.85707 22.065 4.23033C22.211 4.60359 22.2807 5.00231 22.27 5.40296C22.65 10.0352 22.65 14.6907 22.27 19.323Z"
+                                fill="#EA7F1B" />
+                        </svg>
+                    </div>
+
+                    <div class="nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="21" viewBox="0 0 29 21" fill="none">
+                            <path
+                                d="M28.2181 5.92756C28.2191 4.48173 27.6716 3.08933 26.6861 2.03142C25.7005 0.973505 24.3504 0.328849 22.9081 0.227565C17.1381 -0.0724353 11.2781 -0.0724353 5.5481 0.207565C2.7281 0.207565 0.218095 2.92756 0.218095 5.92756C-0.0726984 8.82696 -0.0726984 11.7482 0.218095 14.6476C0.215413 16.0533 0.769249 17.403 1.75859 18.4018C2.74793 19.4005 4.09235 19.967 5.4981 19.9776C8.3981 20.1376 11.3048 20.2176 14.2181 20.2176C17.1314 20.2176 20.0214 20.1409 22.8881 19.9876C24.2889 19.9851 25.6326 19.4323 26.6296 18.4484C27.6266 17.4645 28.1971 16.1282 28.2181 14.7276C28.6276 11.8085 28.6276 8.8466 28.2181 5.92756ZM26.2181 14.5576C26.2132 14.5974 26.2132 14.6377 26.2181 14.6776C26.2155 15.1197 26.1256 15.5569 25.9537 15.9642C25.7818 16.3715 25.5312 16.7409 25.2163 17.0512C24.9014 17.3614 24.5283 17.6065 24.1185 17.7724C23.7087 17.9382 23.2702 18.0215 22.8281 18.0176C17.072 18.3176 11.3042 18.3176 5.5481 18.0176C5.10257 18.0137 4.66226 17.9213 4.25279 17.7457C3.84332 17.5701 3.47286 17.3148 3.16298 16.9947C2.85309 16.6745 2.60997 16.296 2.44775 15.881C2.28554 15.4661 2.20747 15.023 2.2181 14.5776C1.93268 11.7614 1.93268 8.92369 2.2181 6.10756C2.22259 6.07104 2.22259 6.03409 2.2181 5.99756C2.21035 5.05893 2.55211 4.15099 3.17687 3.45044C3.80163 2.7499 4.6647 2.30686 5.5981 2.20756C8.4581 2.07756 11.3381 2.01756 14.2181 2.01756C17.0981 2.01756 19.9781 2.07756 22.8381 2.20756H22.8881C24.5981 2.20756 26.2181 4.04756 26.2181 5.99756C26.2132 6.04744 26.2132 6.09769 26.2181 6.14756C26.6096 8.93053 26.6096 11.7546 26.2181 14.5376V14.5576Z"
+                                fill="#EA7F1B" />
+                            <path
+                                d="M19.0081 9.43757L11.8681 5.75757C11.7512 5.69716 11.6235 5.66037 11.4924 5.64928C11.3614 5.6382 11.2294 5.65305 11.104 5.69298C10.9786 5.7329 10.8624 5.79713 10.7618 5.882C10.6613 5.96686 10.5785 6.07069 10.5181 6.18757C10.4576 6.30445 10.4208 6.43208 10.4098 6.56317C10.3987 6.69427 10.4135 6.82627 10.4535 6.95163C10.4934 7.07698 10.5576 7.19325 10.6425 7.29379C10.7273 7.39432 10.8312 7.47716 10.9481 7.53757L16.3781 10.3276L12.3781 12.3976V10.3276C12.3781 10.0624 12.2727 9.808 12.0852 9.62046C11.8976 9.43293 11.6433 9.32757 11.3781 9.32757C11.1128 9.32757 10.8585 9.43293 10.6709 9.62046C10.4834 9.808 10.3781 10.0624 10.3781 10.3276V14.0476C10.3781 14.3128 10.4834 14.5671 10.6709 14.7547C10.8585 14.9422 11.1128 15.0476 11.3781 15.0476C11.538 15.0482 11.6957 15.0105 11.8381 14.9376L18.9781 11.2176C19.1411 11.1331 19.2777 11.0054 19.373 10.8484C19.4682 10.6914 19.5184 10.5112 19.5181 10.3276C19.5213 10.147 19.4757 9.9689 19.3859 9.8122C19.2961 9.6555 19.1655 9.52604 19.0081 9.43757Z"
+                                fill="#EA7F1B" />
+                        </svg>
+                    </div>
+
+                    <div class="nav-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M23.8476 9.62432C23.6242 9.62432 23.41 9.71307 23.252 9.87104C23.094 10.029 23.0053 10.2433 23.0053 10.4667C23.0004 10.9394 22.9496 11.4106 22.8536 11.8735C22.8495 11.9295 22.8495 11.9859 22.8536 12.0419C22.7323 12.7083 22.4988 13.3492 22.1629 13.9373C21.5781 15.0222 20.7785 15.9767 19.8127 16.7424C17.5609 18.6769 15.0831 20.3316 12.4334 21.6703L12.5767 20.9543C12.6193 20.7461 12.6167 20.5311 12.569 20.324C12.5213 20.1169 12.4296 19.9225 12.3002 19.754C12.1708 19.5854 12.0066 19.4466 11.8189 19.347C11.6311 19.2475 11.4242 19.1894 11.212 19.1768C5.78711 18.6967 1.7016 14.965 1.7016 10.4667C1.68475 5.63146 6.46944 1.68915 12.3408 1.68915C14.0914 1.63579 15.8301 1.99359 17.4174 2.73384C19.0047 3.47408 20.3963 4.57614 21.4806 5.95156C21.5458 6.04117 21.6281 6.11704 21.7227 6.17484C21.8173 6.23265 21.9223 6.27126 22.0318 6.28847C22.1413 6.30568 22.2532 6.30115 22.3609 6.27514C22.4687 6.24913 22.5703 6.20215 22.6599 6.13689C22.7495 6.07162 22.8254 5.98934 22.8832 5.89475C22.941 5.80016 22.9796 5.69512 22.9968 5.58561C23.014 5.47609 23.0095 5.36427 22.9835 5.25651C22.9574 5.14875 22.9105 5.04716 22.8452 4.95756C21.6031 3.36854 20.0059 2.09276 18.1817 1.23258C16.3574 0.372394 14.357 -0.0482485 12.3408 0.00439793C5.5344 0.00439793 0 4.69643 0 10.4667C0 15.7737 4.64991 20.2045 10.8498 20.8363L10.3696 23.0518C10.3368 23.2073 10.3487 23.3689 10.4038 23.518C10.459 23.667 10.5552 23.7974 10.6813 23.8941C10.8283 24.0083 11.009 24.0705 11.1952 24.071C11.327 24.0703 11.4569 24.0385 11.5742 23.9784C14.913 22.4157 18.029 20.4158 20.8403 18.0312C21.9633 17.1357 22.8919 16.0207 23.5696 14.7544C24.0388 13.9555 24.3532 13.0753 24.4963 12.1599C24.4963 12.1599 24.4963 12.0925 24.4963 12.0588C24.6083 11.5349 24.6731 11.0021 24.69 10.4667C24.69 10.2433 24.6012 10.029 24.4433 9.87104C24.2853 9.71307 24.071 9.62432 23.8476 9.62432Z"
+                                fill="#EA7F1B" />
+                            <path
+                                d="M4.47311 7.82162C4.2497 7.82162 4.03544 7.91037 3.87746 8.06835C3.71949 8.22633 3.63074 8.44059 3.63074 8.664V12.8759C3.63074 13.0993 3.71949 13.3135 3.87746 13.4715C4.03544 13.6295 4.2497 13.7182 4.47311 13.7182H7.00024C7.22365 13.7182 7.43791 13.6295 7.59588 13.4715C7.75386 13.3135 7.84261 13.0993 7.84261 12.8759C7.84261 12.6525 7.75386 12.4382 7.59588 12.2802C7.43791 12.1222 7.22365 12.0335 7.00024 12.0335H5.31549V8.664C5.31549 8.44059 5.22674 8.22633 5.06876 8.06835C4.91078 7.91037 4.69652 7.82162 4.47311 7.82162Z"
+                                fill="#EA7F1B" />
+                            <path
+                                d="M8.68494 8.664V12.8759C8.68494 13.0993 8.77369 13.3135 8.93166 13.4715C9.08964 13.6295 9.3039 13.7182 9.52731 13.7182C9.75072 13.7182 9.96498 13.6295 10.123 13.4715C10.2809 13.3135 10.3697 13.0993 10.3697 12.8759V8.664C10.3697 8.44059 10.2809 8.22633 10.123 8.06835C9.96498 7.91037 9.75072 7.82162 9.52731 7.82162C9.3039 7.82162 9.08964 7.91037 8.93166 8.06835C8.77369 8.22633 8.68494 8.44059 8.68494 8.664Z"
+                                fill="#EA7F1B" />
+                            <path
+                                d="M14.5815 8.664V10.4751L12.7115 8.14173C12.6026 8.00559 12.4543 7.90655 12.2868 7.85827C12.1193 7.80999 11.941 7.81485 11.7764 7.87217C11.612 7.92963 11.4695 8.03662 11.3684 8.17843C11.2674 8.32023 11.2127 8.48987 11.212 8.664V12.8759C11.212 13.0993 11.3008 13.3135 11.4588 13.4715C11.6167 13.6295 11.831 13.7182 12.0544 13.7182C12.2778 13.7182 12.4921 13.6295 12.6501 13.4715C12.808 13.3135 12.8968 13.0993 12.8968 12.8759V11.0648L14.7669 13.4066C14.8461 13.5043 14.9463 13.583 15.06 13.637C15.1737 13.6909 15.2981 13.7187 15.4239 13.7182C15.5188 13.7172 15.6127 13.7001 15.7019 13.6677C15.8663 13.6102 16.0088 13.5032 16.1099 13.3614C16.2109 13.2196 16.2656 13.05 16.2663 12.8759V8.664C16.2663 8.44059 16.1775 8.22633 16.0196 8.06835C15.8616 7.91037 15.6473 7.82162 15.4239 7.82162C15.2005 7.82162 14.9862 7.91037 14.8283 8.06835C14.6703 8.22633 14.5815 8.44059 14.5815 8.664Z"
+                                fill="#EA7F1B" />
+                            <path
+                                d="M20.4781 9.50637C20.7016 9.50637 20.9158 9.41762 21.0738 9.25965C21.2318 9.10167 21.3205 8.88741 21.3205 8.664C21.3205 8.44059 21.2318 8.22633 21.0738 8.06835C20.9158 7.91037 20.7016 7.82162 20.4781 7.82162H17.951C17.7276 7.82162 17.5133 7.91037 17.3554 8.06835C17.1974 8.22633 17.1086 8.44059 17.1086 8.664V12.8759C17.1086 13.0993 17.1974 13.3135 17.3554 13.4715C17.5133 13.6295 17.7276 13.7182 17.951 13.7182H20.4781C20.7016 13.7182 20.9158 13.6295 21.0738 13.4715C21.2318 13.3135 21.3205 13.0993 21.3205 12.8759C21.3205 12.6525 21.2318 12.4382 21.0738 12.2802C20.9158 12.1222 20.7016 12.0335 20.4781 12.0335H18.7934V11.6123H20.4781C20.7016 11.6123 20.9158 11.5236 21.0738 11.3656C21.2318 11.2076 21.3205 10.9933 21.3205 10.7699C21.3205 10.5465 21.2318 10.3323 21.0738 10.1743C20.9158 10.0163 20.7016 9.92756 20.4781 9.92756H18.7934V9.50637H20.4781Z"
+                                fill="#EA7F1B" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- banner -->
+        <div class="banner-container">
+            <div class="h1-cn banner-word">台灣的明天，<br>喵先鋪路</div>
+            <div class="banner">
+
+                <div class="banner-image"></div>
+
+                <!-- banner vector -->
+                <div class="banner-vector">
+                    <svg class="banner-vector-web" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                        viewBox="0 0 1920 698" fill="none">
+                        <path
+                            d="M1920 0H0V530.5C0 530.5 253.5 489.5 504.5 510C755.5 530.5 873.5 596 1022.5 629C1171.5 662 1321.5 697.5 1524 697.5C1726.5 697.5 1920 629 1920 629V0Z"
+                            fill="#EA7F1B" fill-opacity="0.1" />
+                    </svg>
+
+                    <!-- mb -->
+                    <svg class="banner-vector-mb" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                        viewBox="0 0 375 639" fill="none">
+                        <path
+                            d="M0 0H375V627.5C375 627.5 336.5 641.5 298.5 637.5C260.5 633.5 207.5 613.5 176 584.5C144.5 555.5 105 544.5 61 544.5C17 544.5 0 553 0 553V0Z"
+                            fill="#EA7F1B" fill-opacity="0.1" />
+                    </svg>
+                </div>
+
+                <div class="banner-fish_bone">
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- About me -->
+        <div class="about-me-container">
+            <div class="about-me-word">
+                <div class="h4-en_r title-en">
+                    About me
+                </div>
+                <div class="h2-cn title-cn">
+                    立法委員<br>
+                    <br>候選人主張
+                </div>
+                <div class="text-cn_r text">
+                    我堅信，藉由推動更完善的貓咪福利和相關政策，更是間接地投資於台灣的未來。畢竟，民眾的身心健康與工作熱情是推動經濟的核心動力。透過完善的貓咪福利政策，為台灣的 GDP 經濟帶來巨大效益。
+                    因此，我期望能在立法院內推進這些政策，確保每一隻貓咪都能得到他們應有的照顧，同時也為台灣的經濟發展助一臂之力。讓我們一同護航台灣的幸福經濟，從照顧每一隻貓咪開始。
+                </div>
+            </div>
+
+            <div class="about-me-right">
+                <div class="about-me-image">
+
+                </div>
+                <!-- <div class="about-me-vector">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 698" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M311.833 532.486C221.369 526.4 155.384 467.05 98.4162 405.637C42.464 345.318 -15.1524 276.354 3.6316 200.233C22.3634 124.324 107.493 81.7794 186.987 46.7109C266.451 11.6556 351.94 -13.2678 436.905 9.09676C539.112 35.9998 644.366 85.5422 674.258 174.971C705.185 267.497 653.744 365.597 580.286 438.06C512.983 504.451 412.83 539.282 311.833 532.486Z"
+                            fill="#EA7F1B" fill-opacity="0.2" />
+                    </svg>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- activity -->
+        <div class="activity-container">
+            <!-- word -->
+            <div class="activity-word">
+                <div class="h4-en_r title-en">
+                    Last Activity
+                </div>
+                <div class="h2-cn title-cn">
+                    最新活動
+                </div>
+
+            </div>
+
+            <!-- timeline-background -->
+            <div class="timeline-background">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 1294" fill="none">
+                    <path
+                        d="M0 56.5576C0 56.5576 159.141 0 462.266 0C765.391 0 1356.99 83.8613 1583.83 83.8613C1810.67 83.8613 1940 56.5576 1940 56.5576V1259.87C1940 1259.87 1744.48 1294 1537.35 1294C1330.21 1294 765.391 1226.23 517.839 1226.23C270.286 1226.23 0 1259.87 0 1259.87V56.5576Z"
+                        fill="#EA7F1B" fill-opacity="0.1" />
+                </svg>
+            </div>
+
+            <!-- timeline-background-mb -->
+            <div class="timeline-background timeline-background-mb">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 350 813" fill="none">
+                    <path
+                        d="M0 14.7732C0 14.7732 30.7617 0 89.3555 0C147.949 0 262.305 21.905 306.152 21.905C350 21.905 375 14.7732 375 14.7732V803.585C375 803.585 337.207 812.5 297.168 812.5C257.129 812.5 147.949 794.798 100.098 794.798C52.2461 794.798 0 803.585 0 803.585V14.7732Z"
+                        fill="#EA7F1B" fill-opacity="0.1" />
+                </svg>
+            </div>
+            <!-- timeline -->
+            <!--Timeline carousel-->
+            <section class="timeline-carousel">
+
+                <div class="timeline-carousel__item-wrapper" data-js="timeline-carousel">
+                    <!--Timeline item-->
+                    <div class="timeline-carousel__item">
+                        <div class="timeline-carousel__image">
+                            <div class="media-wrapper media-wrapper--overlay"
+                                style="background: url('../img/last-activity_20231226.jpg') center center; background-size:cover;">
+                            </div>
+                        </div>
+                        <div class="timeline-carousel__item-inner">
+                            <span class="year h3-en">2023 <p class="date h4-en_r">12/26</p></span>
+                            <span class="month h4-cn_b">參與台北寵物論壇，爭取貓咪友善環境</span>
+                            <p class="text-cn_r">炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的
+                                VIP 休憩空間。
+
+                        </div>
+                    </div>
+                    <!--/Timeline item-->
+
+                    <!--Timeline item-->
+                    <div class="timeline-carousel__item">
+                        <div class="timeline-carousel__image">
+                            <div class="media-wrapper media-wrapper--overlay"
+                                style="background: url('../img/last-activity_20221224.jpg') center center; background-size:cover;">
+                            </div>
+                        </div>
+                        <div class="timeline-carousel__item-inner">
+                            <span class="year h3-en">2022 <p class="date h4-en_r">12/24</p></span>
+
+                            <span class="month h4-cn_b">掃街模式開啟！帶著你的貓耳，來和我一起走！</span>
+                            <p class="text-cn_r">
+                                街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。</p>
+
+                        </div>
+                    </div>
+                    <!--/Timeline item-->
+
+                    <!--Timeline item-->
+                    <div class="timeline-carousel__item">
+                        <div class="timeline-carousel__image">
+                            <div class="media-wrapper media-wrapper--overlay"
+                                style="background: url('../img/last-activity_20211220.jpg') center center; background-size:cover;">
+                            </div>
+                        </div>
+                        <div class="timeline-carousel__item-inner">
+                            <span class="year h3-en">2021 <p class="date h4-en_r">12/20</p></span>
+                            <span class="month h4-cn_b">收容所模特兒大比拼！</span>
+                            <p class="text-cn_r">今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！ </p>
+
+                        </div>
+                    </div>
+                    <!--/Timeline item-->
+
+
+
+                </div>
+            </section>
+            <!--Timeline carousel-->
+
+
+        </div>
+
+        <!-- policy -->
+        <div class="policy-container">
+
+            <!-- policy-word -->
+            <div class="policy-word">
+                <div class="h4-en_r title-en">
+                    Policy
+                </div>
+                <div class="h2-cn title-cn">
+                    政策議題
+                </div>
+
+            </div>
+
+            <!-- policy card -->
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+
+                            <img src="../img/policy-image.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+
+                            <div class="blog-slider__title h4-cn_b">為毛孩子謀福利！推動寵物醫療保障方案</div>
+                            <div class="blog-slider__text">
+                                <ol class="text-cn_r">
+                                    <li>設立寵物醫療基金：每年撥款新台幣 10 億元，專款專用於支援家庭寵物的醫療費用
+                                    <li>提供醫療補助：每隻寵物每年可獲得高達新台幣 20,000 元的醫療補助，減輕飼主的經濟壓力
+                                    <li>合作動物醫院：目前已有和超過 200 家動物醫院進行初步的合作討論
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="../img/policy-image2.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+
+                            <div class="blog-slider__title h4-cn_b">打造休閒天堂！推廣寵物休閒與娛樂場所</div>
+                            <div class="blog-slider__text">
+                                <ol class="text-cn_r">
+                                    <li>設立寵物醫療基金：每年撥款新台幣 10 億元，專款專用於支援家庭寵物的醫療費用
+                                    <li>提供醫療補助：每隻寵物每年可獲得高達新台幣 20,000 元的醫療補助，減輕飼主的經濟壓力
+                                    <li>合作動物醫院：目前已有和超過 200 家動物醫院進行初步的合作討論
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="../img/policy-image3.jpg" alt="">
+                        </div>
+                        <div class="blog-slider__content">
+
+                            <div class="blog-slider__title h4-cn_b">推廣寵物飼養教育，讓愛更加專業</div>
+                            <div class="blog-slider__text">
+                                <ol class="text-cn_r">
+                                    <li>設立寵物醫療基金：每年撥款新台幣 10 億元，專款專用於支援家庭寵物的醫療費用
+                                    <li>提供醫療補助：每隻寵物每年可獲得高達新台幣 20,000 元的醫療補助，減輕飼主的經濟壓力
+                                    <li>合作動物醫院：目前已有和超過 200 家動物醫院進行初步的合作討論
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="blog-slider__pagination"></div>
+            </div>
+
+
+        </div>
+
+        <!-- donate -->
+        <div class="donate-container">
+            <!-- donate-word -->
+            <div class="donate-word">
+                <div class="h4-en_r title-en">
+                    Donate
+                </div>
+                <div class="h2-cn title-cn">
+                    捐款方案
+                </div>
+                <span>
+                    <p class="h4-cn_r">累計</p>
+                    <p class="h3-en donate-word-number">100,000,000</p>
+                </span>
+            </div>
+
+            <!-- donate-slider -->
+            <div class="wrap">
+                <div id="arrow-left" class="arrow"></div>
+                <div id="slider">
+                    <div class="slide slide1">
+                        <div class="slide-content">
+                            <div class="slide-card">
+                                <p class="h3-cn slide-card-title">喵星人之友</p>
+                                <span>
+                                    <p class="body-cn_r slide-card-p">捐款新台幣</p>
+                                    <p class="h4-cn_b slide-card-price">NT$ 600</p>
+                                </span>
+                                <p class="text-cn_r slide-card-population">已有 9,957 人贊助</p>
+                                <button onclick="openPopup()" class="button" href="#">前往捐款</button>
+
+                                <!-- overlaygpt -->
+                                <!-- <button onclick="openPopup()">彈出窗口</button> -->
+
+                                <div class="overlay" id="popupOverlay">
+                                    <div class="popup">
+                                        <span class="close-btn" onclick="closePopup()">×</span>
+                                        <!-- overlay-content -->
+
+                                        <div class="overlaysection">
+                                            <div class="overlaysection1_img">
+
+                                            </div>
+                                            <div class="overlaysection-right">
+                                                <div class="overlaysection1-title">
+                                                    <p class="h4-cn_b overlay-title">喵星人之友</p>
+                                                    <p class="text-en_r overlaysection1-title-number">已有 9,957 人贊助
+                                                    </p>
+                                                </div>
+                                                <p class="text-cn_r overlaysection-word overlay-content">
+                                                    眾所皆知貓是外星人派來統治地球的。但牠們發現，只要一直喵喵叫，就能吃到很多好吃的，所以牠們決定要收人類為僕。除了飲食外，玩樂也是相當重要，要時刻注意主子的運動量，才能活得長長久久喔
+                                                </p>
+                                                <div class="overlaysection-down">
+                                                    <p class="body-cn_r overlaysection-down-word">捐款新台幣</p>
+                                                    <div class="overlaysection-price">
+                                                        <button class="button_nocolor body-en_r">-$100</button>
+                                                        <p class="h4-en_b overlaysection-price-number">NT$ 600</p>
+                                                        <button class="button_nocolor body-en_r">+$100</button>
+                                                    </div>
+
+                                                </div>
+                                                <button onclick="openSecondPopup()"
+                                                    class="button overlaybutton-success ">捐款</button>
+                                                <!-- <div class="checkbox"></div> -->
+                                                <label class="container checkbox checkbox-word text-cn_r">勾選以同意捐款聲明
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <!-- <p class="checkbox-word">勾選以同意捐款聲明</p> -->
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                                <!-- second-overlay -->
+                                <div class="overlay" id="secondPopupOverlay">
+                                    <div class="popup">
+                                        <span class="close-btn" onclick="closeSecondPopup()">×</span>
+                                        <div class="secondPopupOverlay-container">
+                                            <div class="secondPopupOverlay-container-img"></div>
+                                            <p class="h4-cn_b overlay-title">已成功捐款!</p>
+                                            <p class="text-cn_r overlay-content">謝謝您的支持，您的支持是我們最大的動力</p>
+                                            <button class="button" onclick="closeSecondPopup()">回到首頁</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- slide2 -->
+                    </div>
+                    <div class="slide slide2">
+                        <div class="slide-content">
+                            <div class="slide-card">
+                                <p class="h3-cn slide-card-title">喵星大使</p>
+                                <span>
+                                    <p class="body-cn_r slide-card-p">捐款新台幣</p>
+                                    <p class="h4-cn_b slide-card-price">NT$ 6,000</p>
+                                </span>
+                                <p class="text-cn_r slide-card-population">已有 2,000 人贊助</p>
+                                <button onclick="openPopup2()" class="button myLinkModal" href="#">前往捐款</button>
+                                <!-- overlaygpt -->
+                                <!-- <button onclick="openPopup()">彈出窗口</button> -->
+
+                                <div class="overlay" id="popupOverlay2">
+                                    <div class="popup">
+                                        <span class="close-btn" onclick="closePopup2()">×</span>
+                                        <!-- overlay-content -->
+
+                                        <div class="overlaysection">
+                                            <div class="overlaysection2_img">
+
+                                            </div>
+                                            <div class="overlaysection-right">
+                                                <div class="overlaysection1-title">
+                                                    <p class="h4-cn_b overlay-title">喵星大使</p>
+                                                    <p class="text-en_r overlaysection1-title-number">已有 2,000 人贊助
+                                                    </p>
+                                                </div>
+                                                <p class="text-cn_r overlaysection-word overlay-content">
+                                                    眾所皆知貓是外星人派來統治地球的。但牠們發現，只要一直喵喵叫，就能吃到很多好吃的，所以牠們決定要收人類為僕。除了飲食外，玩樂也是相當重要，要時刻注意主子的運動量，才能活得長長久久喔
+                                                </p>
+                                                <div class="overlaysection-down">
+                                                    <p class="body-cn_r overlaysection-down-word">捐款新台幣</p>
+                                                    <div class="overlaysection-price">
+                                                        <button class="button_nocolor body-en_r">-$100</button>
+                                                        <p class="h4-en_b overlaysection-price-number">NT$ 6,000</p>
+                                                        <button class="button_nocolor body-en_r">+$100</button>
+                                                    </div>
+
+                                                </div>
+                                                <button onclick="openSecondPopup2()"
+                                                    class="button overlaybutton-success ">捐款</button>
+                                                <!-- <div class="checkbox"></div> -->
+                                                <label class="container checkbox checkbox-word text-cn_r">勾選以同意捐款聲明
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <!-- <p class="checkbox-word">勾選以同意捐款聲明</p> -->
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                                <!-- second-overlay -->
+                                <div class="overlay" id="secondPopupOverlay2">
+                                    <div class="popup">
+                                        <span class="close-btn" onclick="closeSecondPopup2()">×</span>
+                                        <div class="secondPopupOverlay-container">
+                                            <div class="secondPopupOverlay-container-img"></div>
+                                            <p class="h4-cn_b overlay-title">已成功捐款!</p>
+                                            <p class="text-cn_r overlay-content">謝謝您的支持，您的支持是我們最大的動力</p>
+                                            <button class="button" onclick="closeSecondPopup2()">回到首頁</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide slide3">
+                        <div class="slide-content">
+                            <div class="slide-card">
+                                <p class="h3-cn slide-card-title">喵星傳奇</p>
+                                <span>
+                                    <p class="body-cn_r slide-card-p">捐款新台幣</p>
+                                    <p class="h4-cn_b slide-card-price">NT$ 600</p>
+                                </span>
+                                <p class="text-cn_r slide-card-population">已有 999 人贊助</p>
+                                <button onclick="openPopup3()" class="button myLinkModal" href="#">前往捐款</button>
+
+                                <!-- overlaygpt -->
+                                <!-- <button onclick="openPopup()">彈出窗口</button> -->
+
+                                <div class="overlay" id="popupOverlay3">
+                                    <div class="popup">
+                                        <span class="close-btn" onclick="closePopup3()">×</span>
+                                        <!-- overlay-content -->
+
+                                        <div class="overlaysection">
+                                            <div class="overlaysection3_img">
+
+                                            </div>
+                                            <div class="overlaysection-right">
+                                                <div class="overlaysection1-title">
+                                                    <p class="h4-cn_b overlay-title">喵星傳奇</p>
+                                                    <p class="text-en_r overlaysection1-title-number">已有 999 人贊助
+                                                    </p>
+                                                </div>
+                                                <p class="text-cn_r overlaysection-word overlay-content">
+                                                    眾所皆知貓是外星人派來統治地球的。但牠們發現，只要一直喵喵叫，就能吃到很多好吃的，所以牠們決定要收人類為僕。除了飲食外，玩樂也是相當重要，要時刻注意主子的運動量，才能活得長長久久喔
+                                                </p>
+                                                <div class="overlaysection-down">
+                                                    <p class="body-cn_r overlaysection-down-word">捐款新台幣</p>
+                                                    <div class="overlaysection-price">
+                                                        <button class="button_nocolor body-en_r">-$100</button>
+                                                        <p class="h4-en_b overlaysection-price-number">NT$ 600</p>
+                                                        <button class="button_nocolor body-en_r">+$100</button>
+                                                    </div>
+
+                                                </div>
+                                                <button onclick="openSecondPopup3()"
+                                                    class="button overlaybutton-success ">捐款</button>
+                                                <!-- <div class="checkbox"></div> -->
+                                                <label class="container checkbox checkbox-word text-cn_r">勾選以同意捐款聲明
+                                                    <input type="checkbox" checked="checked">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <!-- <p class="checkbox-word">勾選以同意捐款聲明</p> -->
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                                <!-- second-overlay -->
+                                <div class="overlay" id="secondPopupOverlay3">
+                                    <div class="popup">
+                                        <span class="close-btn" onclick="closeSecondPopup3()">×</span>
+                                        <div class="secondPopupOverlay-container">
+                                            <div class="secondPopupOverlay-container-img"></div>
+                                            <p class="h4-cn_b overlay-title">已成功捐款!</p>
+                                            <p class="text-cn_r overlay-content">謝謝您的支持，您的支持是我們最大的動力</p>
+                                            <button class="button" onclick="closeSecondPopup3()">回到首頁</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="arrow-right" class="arrow"></div>
+            </div>
+        </div>
+
+        <!-- feedback -->
+        <div class="feedback-container">
+
+            <!-- feedback-word -->
+            <div class="feedback-word">
+                <div class="h4-en_r title-en">
+                    Feedback
+                </div>
+                <div class="h2-cn title-cn">
+                    民眾服務信箱
+                </div>
+
+                <div class="h4-cn_b feedback-word-body">
+                    您的聲音，我們的行動！
+                </div>
+                <div class="text-cn_r">
+                    副標描述：親愛的鄉親，每一位市民的意見都是我們社區前進的原動力。無論大小事，我都誠摯希望聽到您的建議。分享您的想法，一同為我們的未來打造更美好！
+                </div>
+            </div>
+            <!-- form -->
+
+            <form class="feedback-form">
+                <!-- fieldsets -->
+                <fieldset>
+                    <div class="input">
+                        <label class="small-text-cn_r" for="name">姓名</label>
+                        <input class="text2-cn_r" id="name" type="text" name="email" placeholder="請輸入" />
+                    </div>
+                    <div class="input">
+                        <label class="small-text-cn_r" for="email">Email</label>
+                        <input class="text2-cn_r" id="email" type="text" name="pass" placeholder="請輸入" />
+                    </div>
+                    <div class="input">
+                        <label class="small-text-cn_r" for="phone">手機</label>
+                        <input class="text2-cn_r" id="phone" type="text" name="cpass" placeholder="請輸入" />
+                    </div>
+                    <div class="input long-input">
+                        <label class="small-text-cn_r " for="text">建言</label>
+                        <input class="text2-cn_r big-input" id="text" type="text" name="cpass" placeholder="請輸入" />
+                    </div>
+
+
+                    <button class="button">送出</button>
+                </fieldset>
+
+        </div>
+
+
+        <!-- footer -->
+        <div class="footer-container">
+            <!--        info -->
+            <div class="footer-container-content">
+                <ul>
+                    <li class="footer-container-content-title body-en_b">information</li>
+                    <li class="footer-container-content-word text-cn_r">喵星區，毛茸茸大道88號，喵喵大樓3樓</li>
+                    <li class="footer-container-content-word text-en_r">(02) 888-5678</li>
+                    <li class="footer-container-content-word text-en_r">meowoffice@linmeow.tw</li>
+                </ul>
+                <!--          links -->
+
+                <ul class="footer-container-link">
+                    <li class="footer-container-content-title body-en_b">Links</li>
+                    <li class="footer-container-content-word text-en_r">About me</li>
+                    <li class="footer-container-content-word text-en_r">Last activity</li>
+                    <li class="footer-container-content-word text-en_r">Policy</li>
+                    <li class="footer-container-content-word text-en_r">Donate</li>
+                    <li class="footer-container-content-word text-en_r">Feedback</li>
+                </ul>
+
+                <!--          icon -->
+                <ul>
+                    <li class="footer-container-content-title body-en_b">Follow us</li>
+                    <div class="footer-container-content-icon">
+                        <li class="footer-container-content-icon_fb"></li>
+                        <li class="footer-container-content-icon_ig"></li>
+                        <li class="footer-container-content-icon_youtube"></li>
+                        <li class="footer-container-content-icon_line"></li>
+                    </div>
+
+                </ul>
+
+
+            </div>
+            <div class="footer-container-copy-right text-en_r">
+                <span>版權聲明:</span>喵立翰 版權所有
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <!-- test -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/policy.js"></script>
+    <script src="../js/timeline.js"></script>
+    <script src="../js/donate.js"></script>
+    <!-- <script src="../js/overlay.js"></script> -->
+    <script src="../js/overlay-gpt.js"></script>
+    <script src="../js/overlay-gpt2.js"></script>
+    <script src="../js/overlay-gpt3.js"></script>
+
+</body>
+
+</html>
